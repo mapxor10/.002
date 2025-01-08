@@ -1,0 +1,167 @@
+.page__content.tickets {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+.page__content.tickets .tickets .tickets__table {
+  background: var(--alt1-background-dark-color);
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  border-top: var(--alt5-background-dark-color) 5px solid;
+  min-width: 1000px;
+  overflow: auto;
+  color: #fff;
+  max-height: 50px;
+  border-spacing: 0;
+}
+
+
+.page__content.tickets .tickets .tickets__table th,
+.page__content.tickets .tickets .tickets__table td {
+  padding: 5px;
+  height: 50px;
+}
+
+.page__content.tickets .tickets .tickets__table td {
+  padding: 5px;
+  color: #ffffffc4;
+}
+
+.page__content.tickets .tickets .tickets__table td.topic {
+  max-width: 100px;
+  max-height: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.page__content.tickets .tickets .tickets__table td.status span {
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.page__content.tickets .tickets .tickets__table td.status span.close {
+  background: var(--color-dis-danger);
+}
+
+.page__content.tickets .tickets .tickets__table td.status span.open {
+  background: var(--color-dis-success);
+}
+
+
+/* Ticket */
+.page__content.ticket {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.page__content.ticket .reason__content{
+  background: var(--alt2-background-dark-color);
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+.page__content.ticket .actions__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  background: var(--alt2-background-dark-color);
+  padding: 10px;
+  border-radius: 15px;
+}
+.page__content.ticket .actions__content h4{
+  color: #fff;
+  font-size: 20px;
+}
+
+.page__content.ticket .actions__content .buttons{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.page__content.ticket .reason__content{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.page__content.ticket .reason__content span{
+  background: var(--alt3-background-dark-color);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.page__content.ticket .reason__content span.open{
+  color: var(--color-dis-success-hover);
+}
+
+.page__content.ticket .reason__content span.close{
+  color: var(--color-dis-danger);
+}
+
+.page__content.ticket .send__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.page__content.ticket .send__content textarea {
+  color: #fff;
+  background: var(--alt1-background-dark-color);
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  max-height: 250px;
+  width: 100%;
+  resize: none;
+  border-radius: 10px;
+}
+
+.page__content.ticket .messages__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page__content.ticket .messages__content .message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--alt1-background-dark-color);
+  border-radius: 15px;
+  border-right: var(--alt5-background-dark-color) 5px solid;
+  padding: 15px;
+  min-height: 150px;
+}
+
+.page__content.ticket .messages__content .message .top__content{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.page__content.ticket .messages__content .message .top__content h3{
+  color: #fff;
+}
+.page__content.ticket .messages__content .message{
+  color: var(--color-gray1);
+}

@@ -1,0 +1,79 @@
+.page__content.bot .settings__content .log{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page__content.bot .settings__content .log .channels-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .log .channels-content h4{
+    color: var(--locked-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page__content.bot .settings__content .log .channels-content .log-event-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: var(--background-alt2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .log .channels-content .log-event-card{
+    background: var(--background-alt);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .log .channels-content .log-event-card label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page__content.bot .settings__content .log .channels-content .log-event-card select{
+    color: #fff;
+    background: var(--alt3-background-dark-color);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    max-height: 150px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .log .channels-content .log-event-card .config-box{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page__content.bot .settings__content .log .channels-content .log-event-card .config-box input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  .page__content.bot .settings__content .log .channels-content .log-event-card .config-box input::-webkit-color-swatch {
+    border-radius: 50%;
+    border: 5px solid var(--alt3-background-dark-color);
+  }
+  .page__content.bot .settings__content .log .channels-content .log-event-card .config-box input::-moz-color-swatch {
+    border-radius: 50%;
+    border: 5px solid var(--alt3-background-dark-color);
+  }

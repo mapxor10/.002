@@ -1,0 +1,74 @@
+.page__content.bot .settings__content .selfrole{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page__content.bot .settings__content .selfrole .selfrole-setup-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .selfrole .selfrole-setup-content h4{
+    color: var(--locked-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content .inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content .inp label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content .inp input,
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content .inp select,
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content .inp textarea{
+    color: #fff;
+    background: var(--alt3-background-dark-color);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    max-height: 150px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content form .selfrole_setup_create_panel_btn{
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-success);
+    max-height: 50px;
+    margin-left: auto;
+}
+.page__content.bot .settings__content .selfrole .selfrole-setup-content .setup-content form .selfrole_setup_create_panel_btn:hover{
+    box-shadow: 0 0 10px 5px rgba(32, 170, 106, 0.341);
+}

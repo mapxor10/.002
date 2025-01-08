@@ -1,0 +1,114 @@
+
+
+.nav__bar {
+  height: 50px;
+  display: flex;
+  background: var(--alt1-background-dark-color);
+  align-items: center;
+  width: calc(100vw - 250px);
+  justify-content: space-between;
+  padding: 0 10px;
+  flex-grow: 1;
+  position: sticky;
+  top: 0;
+  flex-grow: 1;
+  z-index: 100;
+}
+
+
+
+
+.nav__bar .nav__toggle i{
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav__bar .nav__logo img{
+  height: 45px;
+  cursor: pointer;
+}
+
+
+
+
+.nav__bar .left__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__bar .left__content a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.nav__bar .left__content a:hover {
+  color: var(--alt8-background-dark-color);
+}
+
+.nav__bar .left__content img {
+  width: 25px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.nav__bar .left__content .menu {
+  padding: 10px;
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  background: var(--alt2-background-dark-color);
+  border: var(--alt1-background-dark-color) 2px solid;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  user-select: none;
+}
+
+.nav__bar .left__content .menu .flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav__bar .left__content .menu .flag {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.nav__bar .left__content .menu .flag .language {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+
+.nav__bar .left__content .menu .flag .language:hover {
+  background: var(--alt8-background-dark-color);
+}
+
+.show{
+  display: flex !important;
+}

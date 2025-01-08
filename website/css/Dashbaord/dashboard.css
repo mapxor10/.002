@@ -1,0 +1,29 @@
+html{
+  overflow-x: hidden;
+}
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.main__content {
+  flex-grow: 1;
+  /* height: 100vh; */
+  flex-grow: 1;
+  width: 100%;
+  width: calc(100vw - 250px);
+  background: var(--main-background-dark-color);
+}
+
+.main__content .nav__side__content{
+  display: flex;
+}
+
+
+.main__content .content-container .page__content {
+  min-height: calc(100vh - 50px);
+  overflow: scroll;
+  /* height: calc(100% - 50px); */
+  width: 100%;
+  padding: 25px;
+}

@@ -1,0 +1,30 @@
+.page__content.bot .settings__content .control_commands{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.page__content.bot .settings__content .control_commands{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.page__content.bot .settings__content .control_commands .bot_command .bot_command_submenu .input_content .input .enabled_channels__input__content{
+    width: 100%;
+    display: flex;
+}
+
+.page__content.bot .settings__content .control_commands .bot_command .bot_command_submenu .input_content .input select {
+    padding: 10px 0;
+    flex-grow: 1;
+    outline: none;
+    border: none !important;
+    background: var(--alt2-background-dark-color);
+    font-size: 18px;
+    color: var(--color-gray1);
+    border-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+}

@@ -1,0 +1,68 @@
+.page__content.bot .settings__content .feedback .line__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.page__content.bot .settings__content .feedback .line__content .left__content img {
+    max-height: 50px;
+    width: 500px;
+    min-width: 450px;
+}
+
+.page__content.bot .settings__content .feedback .feedback__config__content #feedback_config_settings_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .feedback .feedback__config__content #feedback_config_settings_form .inp {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page__content.bot .settings__content .feedback .feedback__system__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.page__content.bot .settings__content .feedback .feedback__system__content .channel {
+    background: var(--alt1-background-dark-color);
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .feedback .feedback__system__content .channel .left {
+    color: var(--color-gray1);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.page__content.bot .settings__content .feedback .feedback__system__content .channel .left .name {
+    color: #fff;
+}

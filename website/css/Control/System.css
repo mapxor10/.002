@@ -1,0 +1,81 @@
+.page__content.bot .settings__content .system .add__reply__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    color: var(--color-gray1);
+}
+
+.page__content.bot .settings__content .system .add__reply__form .inp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 5px;
+}
+
+.page__content.bot .settings__content .system .add__reply__form .inp2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.page__content.bot .settings__content .system .add__reply__form .inp input,
+.page__content.bot .settings__content .system .add__reply__form .inp select {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: var(--alt3-background-dark-color);
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.page__content.bot .settings__content .system .add__reply__form .inp textarea {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: var(--alt3-background-dark-color);
+    font-size: 18px;
+    border-radius: 5px;
+    height: 150px;
+    resize: none;
+}
+
+.page__content.bot .settings__content .system .manage__replies__content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.page__content.bot .settings__content .system .manage__replies__content .reply{
+    background: var(--alt1-background-dark-color);
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: var(--alt5-background-dark-color) 5px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .system .manage__replies__content .reply .title_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page__content.bot .settings__content .system .manage__replies__content .reply .title_content h4{
+    color: #fff;
+    font-size: 18px;
+}
+.page__content.bot .settings__content .system .manage__replies__content .reply .title_content .buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}

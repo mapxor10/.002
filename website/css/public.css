@@ -1,0 +1,239 @@
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--alt5-background-dark-color);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--alt8-background-dark-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--alt3-background-dark-color-home);
+}
+
+/* ---Alert Start--- */
+.alert {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    top: 30px;
+    right: 20px;
+    z-index: 10000;
+    max-width: 400px;
+    width: 100%;
+    max-height: 200px;
+    animation: show 0.3s ease 1 forwards
+}
+
+.alert .alert-content {
+    background: var(--alert-color);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    min-height: 100px;
+}
+
+.alert .alert-content .text {
+    width: calc(100% - 60px);
+}
+
+.alert .alert-content .text h3 {
+    text-align: center;
+    color: #ffffffcc;
+    margin-bottom: 5px;
+}
+
+.alert .alert-content .text p {
+    text-align: center;
+    color: #ffffffcc;
+}
+
+.alert .alert-content .close {
+    margin-left: auto;
+}
+
+.alert .alert-content .close i {
+    color: var(--locked-color);
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.alert .alert-content .icon i {
+    font-size: 40px;
+    height: 100%;
+}
+
+.alert .alert-content .icon i.success,
+.alert .alert-content .text h3.success {
+    color: var(--color-dis-success-hover);
+}
+
+.alert .alert-content .icon i.error,
+.alert .alert-content .text h3.error {
+    color: var(--color-dis-danger);
+}
+
+.alert .alert-content .icon i.warning,
+.alert .alert-content .text h3.warning {
+    color: var(--color-dis-yellow);
+}
+
+@keyframes show {
+    0% {
+        transform: translateX(100%);
+    }
+
+    40% {
+        transform: translateX(-5%);
+    }
+
+    80% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+.alert .alert-content::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--alt5-background-dark-color);
+    width: 100%;
+    height: 3px;
+    content: '';
+    animation: timeOut 5s linear 1 forwards
+}
+
+@keyframes timeOut {
+    to {
+        width: 0;
+    }
+}
+
+/* ---Alert End--- */
+
+
+
+/* ---Alert Card Start--- */
+.alert_card {
+    padding: 0;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    top: 30px;
+    right: 20px;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #0000005a;
+    top: 0;
+    left: 0;
+}
+
+.alert_card .card__content {
+    background: var(--alt3-background-dark-color-home);
+    min-width: 750px;
+    min-height: 300px;
+    max-width: 1000px;
+    text-align: center;
+    border-radius: 10px;
+    border-top: var(--alt5-background-dark-color) 5px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.alert_card .card__content .title {
+    color: #fff;
+    font-size: 24px;
+}
+
+.alert_card .card__content .order_title {
+    color: var(--color-gray1);
+    font-size: 28px;
+}
+
+.alert_card .card__content .description {
+    color: var(--color-gray1);
+    font-size: 18px;
+}
+
+.alert_card .card__content .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.alert_card .card__content .inputs input,
+.alert_card .card__content .inputs select,
+.alert_card .card__content .inputs textarea {
+    padding: 10px;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: var(--alt1-background-dark-color);
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.alert_card .card__content .inputs textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* .alert_card .card__content .inputs input[type="text"]{
+    
+} */
+
+.alert_card .card__content .buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.alert_card .card__content .buttons button.cancel {
+    padding: 7px 10px;
+    background: #6e7881;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.alert_card .card__content .buttons button.cancel:hover {
+    background: #636c74;
+}
+
+.alert_card .card__content .buttons button.save {
+    padding: 7px 10px;
+    background: var(--alt5-background-dark-color);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.alert_card .card__content .buttons button.save:hover {
+    background: var(--alt8-background-dark-color);
+}
+
+/* ---Alert Card End--- */

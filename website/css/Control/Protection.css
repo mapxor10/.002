@@ -1,0 +1,254 @@
+.page__content.bot .settings__content .protection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page__content.bot .settings__content .protection .config-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .protection .config-settings h4 {
+    color: var(--locked-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .selectM {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .selectM select {
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--alt3-background-dark-color);
+    color: #fff;
+    max-width: 500px;
+    width: 450px;
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .selectM .protection_config_settings_btn {
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-success);
+    max-height: 50px;
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .selectM .protection_config_settings_btn:hover {
+    box-shadow: 0 0 10px 5px rgba(32, 170, 106, 0.341);
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .btns {
+    display: flex;
+    gap: 20px;
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .btns button {
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    user-select: none;
+    max-height: 50px;
+    cursor: pointer;
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .btns button.mode_on {
+    background: var(--color-dis-success);
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .btns button.mode_on:hover {
+    box-shadow: 0 0 10px 5px rgba(32, 170, 106, 0.341);
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .btns button.mode_off {
+    background: var(--color-dis-danger);
+}
+
+.page__content.bot .settings__content .protection .config-settings .inp .btns button.mode_off:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 72, 90, 0.19);
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted h4 {
+    color: var(--locked-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .action_settings_form {
+    justify-content: center;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .action_settings_form .inp {
+    width: 40%;
+    min-width: 350px;
+    flex-grow: 1;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .inp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 85%;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .inp label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .inp input,
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .inp select {
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--alt3-background-dark-color);
+    color: #fff;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .inp input[type="number"] {
+    border-radius: 10px 0 0 10px;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content form .protection_action_limit_btn {
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-primary);
+    max-height: 50px;
+    margin-top: auto;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content form .protection_action_limit_btn:hover {
+    box-shadow: 0 0 10px 5px rgba(128, 126, 234, 0.341);
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content form .protection_add_user_action_btn {
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-success);
+    max-height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content form .protection_add_user_action_btn:hover {
+    box-shadow: 0 0 10px 5px rgba(32, 170, 106, 0.341);
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .submenu {
+
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .submenu .user-card {
+    background: var(--background-alt);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .submenu .user-card h5 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .submenu .user-card .protection_delete_user_action_btn {
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-danger);
+    max-height: 50px;
+}
+
+.page__content.bot .settings__content .protection .protection-whitelisted .card .action-content .submenu .user-card .protection_delete_user_action_btn:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 72, 90, 0.19);
+}

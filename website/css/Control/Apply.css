@@ -1,0 +1,227 @@
+.page__content.bot .settings__content .apply .apply-config-settings{
+    background: var(--background-alt2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .apply .apply-config-settings .config-content form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .apply .apply-config-settings .config-content form .apply_config_settings_save_btn{
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-success);
+    max-height: 50px;
+    margin-top: auto;
+}
+.page__content.bot .settings__content .apply .apply-config-settings .config-content form .apply_config_settings_save_btn:hover{
+    box-shadow: 0 0 10px 5px rgba(32, 170, 106, 0.341);
+}
+
+.page__content.bot .settings__content .apply .apply-config-settings h4{
+    color: var(--locked-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page__content.bot .settings__content .apply .apply-config-settings .config-content .inp{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    min-width: 450px;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.page__content.bot .settings__content .apply .apply-config-settings .config-content .inp label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page__content.bot .settings__content .apply .apply-config-settings .config-content .inp input,
+.page__content.bot .settings__content .apply .apply-config-settings .config-content .inp select{
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--alt3-background-dark-color);
+    color: #fff;
+}
+
+.page__content.bot .settings__content .apply .apply-setup-content{
+    background: var(--background-alt2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .apply .apply-setup-content h4{
+    color: var(--locked-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page__content.bot .settings__content .apply .apply-setup-content .inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.page__content.bot .settings__content .apply .apply-setup-content .inp label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page__content.bot .settings__content .apply .apply-setup-content .inp input,
+.page__content.bot .settings__content .apply .apply-setup-content .inp select{
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--alt3-background-dark-color);
+    color: #fff;
+    width: 80%;
+}
+.page__content.bot .settings__content .apply .apply-setup-content .inp textarea{
+    color: #fff;
+    background: var(--alt3-background-dark-color);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    max-height: 250px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .apply .apply-setup-content form{
+    display: flex;
+    flex-direction: column;
+}
+
+.page__content.bot .settings__content .apply .apply-setup-content form .apply_setup_applection_save_btn{
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-success);
+    max-height: 50px;
+    margin-left: auto;
+}
+.page__content.bot .settings__content .apply .apply-setup-content form .apply_setup_applection_save_btn:hover{
+    box-shadow: 0 0 10px 5px rgba(32, 170, 106, 0.341);
+}
+
+.page__content.bot .settings__content .apply .apply-manage-content{
+    background: var(--background-alt2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .apply .apply-manage-content h4{
+    color: var(--locked-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page__content.bot .settings__content .apply .apply-manage-content .inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.page__content.bot .settings__content .apply .apply-manage-content .inp label{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page__content.bot .settings__content .apply .apply-manage-content .inp .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page__content.bot .settings__content .apply .apply-manage-content .inp .search input{
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--alt3-background-dark-color);
+    color: #fff;
+    width: 80%;
+}
+
+.page__content.bot .settings__content .apply .apply-manage-content .inp .search button{
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-primary);
+    max-height: 50px;
+}
+.page__content.bot .settings__content .apply .apply-manage-content .inp .search button:hover{
+    box-shadow: 0 0 10px 5px rgba(128, 126, 234, 0.341);
+}
+
+.page__content.bot .settings__content .apply .apply-manage-content .apply-manage-space .inp textarea,
+.page__content.bot .settings__content .apply .apply-manage-content .apply-manage-space .inp input,
+.page__content.bot .settings__content .apply .apply-manage-content .apply-manage-space .inp select{
+    color: #fff;
+    background: var(--background-alt2);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    max-height: 150px;
+    resize: none;
+    border-radius: 10px;
+}
+.page__content.bot .settings__content .apply .apply-manage-content .apply-manage-space form{
+    display: flex;
+    flex-direction: column;
+}
+.page__content.bot .settings__content .apply .apply-manage-content .apply-manage-space form .apply_manage_applection_save_btn{
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: none;
+    background: var(--color-dis-success);
+    max-height: 50px;
+    margin-left: auto;
+}
+.page__content.bot .settings__content .apply .apply-manage-content .apply-manage-space form .apply_manage_applection_save_btn:hover{
+    box-shadow: 0 0 10px 5px rgba(32, 170, 106, 0.341);
+}

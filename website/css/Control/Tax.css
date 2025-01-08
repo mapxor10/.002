@@ -1,0 +1,119 @@
+.page__content.bot .settings__content .tax .line__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.page__content.bot .settings__content .tax .line__content .left__content img {
+    max-height: 50px;
+    width: 500px;
+    min-width: 450px;
+}
+
+.page__content.bot .settings__content .tax .tax__system__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.page__content.bot .settings__content .tax .tax__system__content .channel {
+    background: var(--alt1-background-dark-color);
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page__content.bot .settings__content .tax .tax__system__content .channel .left {
+    color: var(--color-gray1);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.page__content.bot .settings__content .tax .tax__system__content .channel .left .name {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page__content.bot .settings__content .tax #tax_config_settings_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: var(--alt1-background-dark-color);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.page__content.bot .settings__content .tax #tax_config_settings_form #custom_tax_message {
+    padding: 10px;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: var(--alt3-background-dark-color);
+    font-size: 18px;
+    border-radius: 5px;
+    height: 150px;
+    resize: none;
+}
+
+.page__content.bot .settings__content .tax #tax_config_settings_form .tips {
+    color: var(--color-gray1);
+    font-size: 18px;
+}
+
+.page__content.bot .settings__content .tax #tax_config_settings_form .custom-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page__content.bot .settings__content .tax #tax_config_settings_form .custom-btn .inp{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.page__content.bot .settings__content .tax #tax_config_settings_form .custom-btn .inp label{
+    color: var(--color-gray1);
+}
+
+.page__content.bot .settings__content .tax #tax_config_settings_form .custom-btn .inp div{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.page__content.bot .settings__content .tax #tax_config_settings_form .custom-btn .inp div #tax_custom_button_percentage_text{
+    color: var(--color-gray1);
+}
+
+.page__content.bot .settings__content .tax #tax_config_settings_form .custom-btn input[type="text"],
+.page__content.bot .settings__content .tax #tax_config_settings_form .custom-btn select {
+    padding: 10px;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: var(--alt3-background-dark-color);
+    font-size: 18px;
+    border-radius: 5px;
+}

@@ -1,0 +1,116 @@
+{
+    "token":"",
+    "ClientID":"",
+    "prefix":"!",
+    "Owner":[""],
+    "Systems": {
+        "UserRoles": true,
+        "Log":{
+            "Logging":[
+                {
+                    "label": "Member Banned",
+                    "value": "member-banned"
+                },
+                {
+                    "label": "Timeout",
+                    "value": "timeout"
+                },
+                {
+                    "label": "Channel Created",
+                    "value": "channel-created"
+                },
+                {
+                    "label": "Thread Created",
+                    "value": "thread-created"
+                },
+                {
+                    "label": "Role Created",
+                    "value": "role-created"
+                },
+                {
+                    "label": "Channel Deleted",
+                    "value": "channel-deleted"
+                },
+                {
+                    "label": "Thread Deleted",
+                    "value": "thread-deleted"
+                },
+                {
+                    "label": "Message Deleted",
+                    "value": "message-deleted"
+                },
+                {
+                    "label": "Role Deleted",
+                    "value": "role-deleted"
+                },
+                {
+                    "label": "Message Edited",
+                    "value": "message-edited"
+                },
+                {
+                    "label": "Member kicked",
+                    "value": "member-kicked"
+                },
+                {
+                    "label": "Member disconnected fro..",
+                    "value": "member-disconnected",
+                    "description": "Member disconnected from voice channel"
+                },
+                {
+                    "label": "Member Joined",
+                    "value": "member-joined"
+                },
+                {
+                    "label": "Member Left",
+                    "value": "member-left"
+                },
+                {
+                    "label": "Nickname Changed",
+                    "value": "nickname-changed"
+                },
+                {
+                    "label": "Role Given",
+                    "value": "role-given"
+                },
+                {
+                    "label": "Role Removed",
+                    "value": "role-removed"
+                },
+                {
+                    "label": "Member Unbanned",
+                    "value": "member-unbanned"
+                },
+                {
+                    "label": "Channel Updated",
+                    "value": "channel-updated"
+                },
+                {
+                    "label": "Thread Updated",
+                    "value": "thread-updated"
+                },
+                {
+                    "label": "Channel Permissions Upda.",
+                    "value": "channel-prems-updated",
+                    "description": "Channel Permissions Updated"
+                },
+                {
+                    "label": "Role Updated",
+                    "value": "role-updated"
+                },
+                {
+                    "label": "Member Joined Voice Cha..",
+                    "value": "member-joined-channel",
+                    "description": "Member Joined Voice Channel"
+                },
+                {
+                    "label": "Member Left Voice Channel",
+                    "value": "member-left-channel"
+                },
+                {
+                    "label": "Voice State",
+                    "value": "voice-state"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 900px) {
+  .side__bar {
+    display: none;
+  }
+
+  .nav__bar {
+    width: 100vw;
+  }
+}

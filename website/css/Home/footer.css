@@ -1,0 +1,76 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: #ffffff30 1px solid;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer .section.logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+footer .section.logo img {
+  width: 80px;
+}
+
+footer .section.logo h5 {
+  color: var(--alt5-background-dark-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+footer .section {
+  margin-bottom: 20px;
+}
+
+footer .section h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  width: 150px;
+}
+
+footer .section .footerline {
+  margin: 10px;
+}
+
+footer .section .links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+footer .section .links a {
+  color: #ffffffae;
+  text-align: center;
+  transition: 0.3s;
+}
+
+footer .section .links a:hover {
+  color: var(--alt5-background-dark-color);
+}
+
+footer .section .links img {
+  width: 30px;
+
+}
+
+footer .section .links a i {
+  font-size: 26px;
+}
+
+footer .section .links a i.yt {
+  color: var(--color-dis-danger);
+}
+
+footer .section .links a i.dis {
+  color: var(--color-dis-primary);
+}
